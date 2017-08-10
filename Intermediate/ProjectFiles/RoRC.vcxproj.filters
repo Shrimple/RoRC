@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\RoRC.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C3486225-404D-4D06-8B3C-597C65FB8D05}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RoRC.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\RoRCEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{78C133C5-CDFC-4440-A83F-DE3FA78671CB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\RoRC">
+      <UniqueIdentifier>{44950432-5458-4474-8FB3-E58FBBB17659}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\RoRC\RoRC.Build.cs">
+      <Filter>Source\RoRC</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\RoRC\RoRC.cpp">
+      <Filter>Source\RoRC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RoRC\RoRC.h">
+      <Filter>Source\RoRC</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\RoRC\SNGameMode.cpp">
+      <Filter>Source\RoRC</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\RoRC\SNGameMode.h">
+      <Filter>Source\RoRC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\RoRC\SNPlayer.h">
+      <Filter>Source\RoRC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\RoRC\SNPlayer.cpp">
+      <Filter>Source\RoRC</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

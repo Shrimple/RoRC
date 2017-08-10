@@ -1,0 +1,1003 @@
+﻿Log file open, 08/09/17 20:04:10
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: RoRC
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1230763365) SRandInit(1230763365).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.156612
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3573198
+LogInit: Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug  4 2017 16:30:33
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.10-00.04.10:621][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.10-00.04.10:621][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.10-00.04.10:632][  0]LogInit: Computer: SIMON-PC
+[2017.08.10-00.04.10:632][  0]LogInit: User: Simon
+[2017.08.10-00.04.10:632][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.10-00.04.10:632][  0]LogInit: High frequency timer resolution =3.515664 MHz
+[2017.08.10-00.04.10:632][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.10-00.04.10:632][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.10-00.04.10:632][  0]LogMemory: Process Physical Memory: 280.61 MB used, 280.61 MB peak
+[2017.08.10-00.04.10:632][  0]LogMemory: Process Virtual Memory: 285.37 MB used, 285.37 MB peak
+[2017.08.10-00.04.10:632][  0]LogMemory: Physical Memory: 6945.24 MB used,  9387.38 MB free, 16332.62 MB total
+[2017.08.10-00.04.10:632][  0]LogMemory: Virtual Memory: 660.11 MB used,  9387.38 MB free, 8388608.00 MB total
+[2017.08.10-00.04.10:747][  0]LogInit: Using OS detected language (en-US).
+[2017.08.10-00.04.10:747][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.10-00.04.10:753][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.10-00.04.11:550][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.10-00.04.12:093][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2017.08.10-00.04.12:093][  0]LogD3D11RHI:       4008/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.10-00.04.12:093][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.10-00.04.12:098][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.10-00.04.12:098][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.10-00.04.12:098][  0]LogWindows: EnumDisplayDevices:
+[2017.08.10-00.04.12:098][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2017.08.10-00.04.12:098][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2017.08.10-00.04.12:098][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.10-00.04.12:098][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2017.08.10-00.04.12:099][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.10-00.04.12:099][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.10-00.04.12:099][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.10-00.04.12:099][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.10-00.04.12:099][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2017.08.10-00.04.12:099][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.10-00.04.12:099][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.10-00.04.12:099][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.10-00.04.12:605][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.10-00.04.12:636][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.10-00.04.12:685][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../../Personal/UE/RoRC/Intermediate/Shaders/WorkingDirectory/8612/).
+[2017.08.10-00.04.12:685][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Simon/AppData/Local/Temp/UnrealShaderWorkingDir/F6E66BF64AA09A9E3246F4B4C9EA0469/'.
+[2017.08.10-00.04.12:685][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.08.10-00.04.13:539][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.10-00.04.13:584][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.08.10-00.04.13:621][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.10-00.04.13:658][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.08.10-00.04.13:699][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.08.10-00.04.13:736][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.10-00.04.13:772][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.10-00.04.13:812][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.10-00.04.13:843][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.08.10-00.04.13:880][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.08.10-00.04.13:917][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.10-00.04.13:953][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.10-00.04.13:990][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.10-00.04.14:027][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.10-00.04.14:064][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.10-00.04.14:136][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.10-00.04.14:136][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.10-00.04.14:164][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.08.10-00.04.14:233][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.08.10-00.04.14:252][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.08.10-00.04.14:288][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.10-00.04.14:324][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.10-00.04.14:360][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.10-00.04.14:399][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.08.10-00.04.14:399][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.08.10-00.04.14:688][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.08.10-00.04.14:785][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Simon/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.10-00.04.14:785][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Simon/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.08.10-00.04.14:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Personal/UE/RoRC/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.10-00.04.14:786][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.10-00.04.14:786][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Personal/UE/RoRC/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.10-00.04.14:786][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.10-00.04.14:804][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.10-00.04.14:816][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Simon/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.10-00.04.14:826][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.10-00.04.14:827][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.10-00.04.14:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.10-00.04.14:828][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.10-00.04.15:124][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2017.08.10-00.04.15:272][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.10-00.04.15:275][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.10-00.04.15:582][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.10-00.04.15:610][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.10-00.04.15:610][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.10-00.04.15:610][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.08.10-00.04.15:610][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.08.10-00.04.15:610][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.08.10-00.04.15:961][  0]LogNetVersion: RoRC , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3851538802)
+[2017.08.10-00.04.16:140][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.034667 seconds
+[2017.08.10-00.04.16:147][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.08.10-00.04.16:147][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.08.10-00.04.16:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.10-00.04.16:180][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.10-00.04.18:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.10-00.04.18:769][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.10-00.04.19:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.10-00.04.19:561][  0]SourceControl: Source control is disabled
+[2017.08.10-00.04.19:561][  0]SourceControl: Source control is disabled
+[2017.08.10-00.04.19:598][  0]SourceControl: Source control is disabled
+[2017.08.10-00.04.19:631][  0]SourceControl: Source control is disabled
+[2017.08.10-00.04.20:019][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.10-00.04.20:189][  0]LogOcInput: OculusInput pre-init called
+[2017.08.10-00.04.20:382][  0]LogEngine: Initializing Engine...
+[2017.08.10-00.04.20:384][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.10-00.04.20:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.10-00.04.20:643][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.10-00.04.20:733][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.10-00.04.20:743][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.08.10-00.04.20:753][  0]LogInit: FAudioDevice initialized.
+[2017.08.10-00.04.20:836][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/Simon/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.08.10-00.04.20:852][  0]LogInit: Texture streaming: Enabled
+[2017.08.10-00.04.20:913][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.10-00.04.21:066][  0]LogInit: Transaction tracking system initialized
+[2017.08.10-00.04.21:282][  0]BlueprintLog: New page: Editor Load
+[2017.08.10-00.04.21:903][  0]LocalizationService: Localization service is disabled
+[2017.08.10-00.04.22:395][  0]LogConsoleResponse: Display: 
+[2017.08.10-00.04.22:577][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.10-00.04.22:577][  0]LogCook: Display: Mobile HDR setting 1
+[2017.08.10-00.04.22:577][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.08.10-00.04.22:938][  0]LogFileCache: Scanning file cache for directory 'E:/Personal/UE/RoRC/Content/' took 0.01s
+[2017.08.10-00.04.23:330][  0]SourceControl: Source control is disabled
+[2017.08.10-00.04.23:330][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.10-00.04.23:331][  0]LightingResults: New page: Lighting Build
+[2017.08.10-00.04.23:359][  0]MapCheck: New page: Map Check
+[2017.08.10-00.04.23:359][  0]LightingResults: New page: Lighting Build
+[2017.08.10-00.04.23:530][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.08.10-00.04.23:535][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.10-00.04.23:547][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.10-00.04.23:638][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.308ms to complete.
+[2017.08.10-00.04.23:638][  0]LogFileHelpers: Loading map 'Template_Default' took 0.308
+[2017.08.10-00.04.23:782][  0]LogCollectionManager: Loaded 0 collections in 0.001210 seconds
+[2017.08.10-00.04.23:853][  0]LogFileCache: Scanning file cache for directory 'E:/Personal/UE/RoRC/Saved/Collections/' took 0.01s
+[2017.08.10-00.04.23:853][  0]LogFileCache: Scanning file cache for directory 'E:/Personal/UE/RoRC/Content/Developers/Simon/Collections/' took 0.01s
+[2017.08.10-00.04.23:853][  0]LogFileCache: Scanning file cache for directory 'E:/Personal/UE/RoRC/Content/Collections/' took 0.01s
+[2017.08.10-00.04.23:853][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.10-00.04.23:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2386 classes and 500 folders.
+[2017.08.10-00.04.23:910][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.10-00.04.23:957][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.10-00.04.23:989][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.10-00.04.24:008][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.10-00.04.24:009][  0]LogSlate: Took 0.000509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.10-00.04.24:015][  0]LogSlate: Took 0.000797 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.10-00.04.24:122][  0]LogRenderer: Reallocating scene render targets to support 1208x600 Format 10 NumSamples 1 (Frame:1).
+[2017.08.10-00.04.24:334][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.10-00.04.24:334][  0]LogLoad: (Engine Initialization) Total time: 14.97 seconds
+[2017.08.10-00.04.24:334][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.08.10-00.04.24:334][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.10-00.04.24:334][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.10-00.04.24:366][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.10-00.04.24:401][  0]LogSlate: Took 0.000599 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-00.04.24:414][  1]LogAssetRegistry: Asset discovery search completed in 9.3113 seconds
+[2017.08.10-00.04.24:416][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.10-00.04.24:416][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2017.08.10-00.04.40:446][ 76]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RoRC
+[2017.08.10-00.04.40:446][ 76]LogTemp: CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.10-00.04.40:446][ 76]LogTemp: Initial Dir: E:\Epic Games\UE_4.17
+[2017.08.10-00.04.40:446][ 76]LogTemp: Env CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.10-00.04.40:446][ 76]LogTemp: BranchPath = SIMON-PC/E/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = SIMON-PC/E/Epic Games/UE_4.17/Engine/Binaries
+[2017.08.10-00.04.40:446][ 76]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.10-00.05.28:241][760]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-00.05.48:402][245]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.10-00.05.48:435][245]LogSlate: Took 0.000573 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.10-00.06.21:686][465]Running E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/Personal/UE/RoRC/RoRC.uproject" -game -rocket -progress
+[2017.08.10-00.06.21:887][465]Discovering modules, targets and source code for project...
+[2017.08.10-00.06.23:788][465]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.10-00.06.24:624][465]LogHotReload: Recompiling module RoRC...
+[2017.08.10-00.06.24:625][465]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2017.08.10-00.06.24:642][465]Candidate modules for hot reload:
+[2017.08.10-00.06.24:642][465]  RoRC
+[2017.08.10-00.06.24:642][465]Launching UnrealBuildTool... [E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC -Module RoRC Win64 Development -editorrecompile -canskiplink "E:/Personal/UE/RoRC/RoRC.uproject" ]
+[2017.08.10-00.06.47:043][465]Compiling game modules for hot reload
+Performing full C++ include scan (no include cache file)
+Parsing headers for RoRCEditor
+  Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for RoRCEditor in 9.5394633 seconds
+Performing 9 actions (4 in parallel)
+[2/9] Resource ModuleVersionResource.rc.inl
+[3/9] Resource PCLaunch.rc
+SharedPCH.Engine.cpp
+SNGameMode.cpp
+RoRC.cpp
+RoRC.init.gen.cpp
+SNGameMode.gen.cpp
+[8/9] Link UE4Editor-RoRC.dll
+[9/9] Link UE4Editor-RoRC.lib
+   Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.exp
+   Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.suppressed.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.suppressed.exp
+Total build time: 22.24 seconds (Local executor: 4.69 seconds)
+
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: New page: Compilation - Aug 9, 2017, 4:06:47 PM
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: Performing full C++ include scan (no include cache file)
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: Parsing headers for RoRCEditor
+[2017.08.10-00.06.47:043][465]CompilerResultsLog:   Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: Reflection code generated for RoRCEditor in 9.5394633 seconds
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: [2/9] Resource ModuleVersionResource.rc.inl
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: [3/9] Resource PCLaunch.rc
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: SharedPCH.Engine.cpp
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: SNGameMode.cpp
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: RoRC.cpp
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: RoRC.init.gen.cpp
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: SNGameMode.gen.cpp
+[2017.08.10-00.06.47:043][465]CompilerResultsLog: [8/9] Link UE4Editor-RoRC.dll
+[2017.08.10-00.06.47:044][465]CompilerResultsLog: [9/9] Link UE4Editor-RoRC.lib
+[2017.08.10-00.06.47:044][465]CompilerResultsLog:    Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.exp
+[2017.08.10-00.06.47:044][465]CompilerResultsLog:    Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.suppressed.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC.suppressed.exp
+[2017.08.10-00.06.47:044][465]CompilerResultsLog: Total build time: 22.24 seconds (Local executor: 4.69 seconds)
+[2017.08.10-00.06.47:044][465]LogMainFrame: MainFrame: Module compiling took 22.419 seconds
+[2017.08.10-00.06.47:044][465]Reloading module RoRC after successful compile.
+[2017.08.10-00.06.47:084][465]LogContentBrowser: Native class hierarchy updated for 'RoRC' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2017.08.10-00.06.47:096][465]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2389 classes and 506 folders.
+[2017.08.10-00.06.52:306][468]LogVSAccessor: Warning: Couldn't goto line number '0' in 'E:/Personal/UE/RoRC/Source/RoRC/SNGameMode.h'
+[2017.08.10-00.06.52:597][468]LogVSAccessor: Warning: Couldn't goto line number '0' in 'E:/Personal/UE/RoRC/Source/RoRC/SNGameMode.cpp'
+[2017.08.10-00.10.18:193][222]Running E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC Win64 Development -editorrecompile "E:/Personal/UE/RoRC/RoRC.uproject" -invalidatemakefilesonly
+[2017.08.10-00.10.18:394][222]Invalidating makefiles only in this run.
+[2017.08.10-00.10.18:724][222]Candidate modules for hot reload:
+[2017.08.10-00.10.18:724][222]  RoRC
+[2017.08.10-00.10.18:724][222]Launching UnrealBuildTool... [E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC -ModuleWithSuffix RoRC 7730 Win64 Development -editorrecompile -canskiplink "E:/Personal/UE/RoRC/RoRC.uproject" ]
+[2017.08.10-00.10.49:630][222]CompilerResultsLog: New page: Compilation - Aug 9, 2017, 4:10:49 PM
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Parsing headers for RoRCEditor
+[2017.08.10-00.10.49:631][222]CompilerResultsLog:   Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Reflection code generated for RoRCEditor in 10.6844123 seconds
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: SNGameMode.cpp
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: SNPlayer.cpp
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: RoRC.init.gen.cpp
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: SNGameMode.gen.cpp
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2079: 'ASNGameMode' uses undefined class 'RoRC_API'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2059: syntax error: ':'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2059: syntax error: 'public'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(14) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(14) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2079: 'ASNGameMode' uses undefined class 'RoRC_API'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2059: syntax error: ':'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2059: syntax error: 'public'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(14) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(14) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(22) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(22) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(43) : error C2923: 'TCppClassTypeTraits': 'ASNGameMode' is not a valid template type argument for parameter 'CPPCLASS'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(43) : error C3203: 'TCppClassTypeTraits': unspecialized class template can't be used as a template argument for template parameter 'TTraits', expected a real type
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2923: 'TClassCompiledInDefer': 'ASNGameMode' is not a valid template type argument for parameter 'TClass'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Epic Games\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(303) : note: see declaration of 'TClassCompiledInDefer'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticPackage': identifier not found
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'StaticClassFlags': undeclared identifier
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticClassCastFlags': identifier not found
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticConfigName': identifier not found
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2039: 'Super': is not a member of 'ASNGameMode'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.10.49:631][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2039: 'WithinClass': is not a member of 'ASNGameMode'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2365: 'ASNGameMode': redefinition; previous definition was 'data variable'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2550: 'ASNGameMode': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: SNPlayer.gen.cpp
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(8) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(8) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(9) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(9) : error C2365: 'ASNGameMode': redefinition; previous definition was 'data variable'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(10) : error C2550: 'ASNGameMode': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C2065: 'DefaultPawnClass': undeclared identifier
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(18) : error C2065: 'DefaultPawnClass': undeclared identifier
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(25) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(25) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(27) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(29) : error C3861: 'StartPlay': identifier not found
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Personal\UE\RoRC\Binaries\Win64\UE4Editor-RoRC-7730.dll
+[2017.08.10-00.10.49:632][222]CompilerResultsLog: Total build time: 30.73 seconds (Local executor: 0.00 seconds)
+[2017.08.10-00.10.49:632][222]LogMainFrame: MainFrame: Module compiling took 30.918 seconds
+[2017.08.10-00.10.49:632][222]Warning: HotReload failed, recompile failed
+[2017.08.10-00.10.49:639][222]Warning: RebindPackages failed because the compiler could not be started.
+[2017.08.10-00.10.59:132][222]LogSlate: Took 0.012446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.08.10-00.12.33:226][394]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RoRC
+[2017.08.10-00.12.33:226][394]LogTemp: CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.10-00.12.33:226][394]LogTemp: Initial Dir: E:\Epic Games\UE_4.17
+[2017.08.10-00.12.33:226][394]LogTemp: Env CWD: E:\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.08.10-00.12.33:226][394]LogTemp: BranchPath = SIMON-PC/E/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = SIMON-PC/E/Epic Games/UE_4.17/Engine/Binaries
+[2017.08.10-00.12.33:226][394]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Simon\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.08.10-00.13.36:718][573]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.08.10-00.13.41:638][ 98]Candidate modules for hot reload:
+[2017.08.10-00.13.41:638][ 98]  RoRC
+[2017.08.10-00.13.41:638][ 98]Launching UnrealBuildTool... [E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC -ModuleWithSuffix RoRC 8693 Win64 Development -editorrecompile -canskiplink "E:/Personal/UE/RoRC/RoRC.uproject" ]
+[2017.08.10-00.13.41:639][ 98]Warning: Starting HotReload took  0.0s.
+[2017.08.10-00.14.20:128][781]CompilerResultsLog: New page: Compilation - Aug 9, 2017, 4:14:20 PM
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Parsing headers for RoRCEditor
+[2017.08.10-00.14.20:131][781]CompilerResultsLog:   Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Reflection code generated for RoRCEditor in 13.5894149 seconds
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Performing 7 actions (4 in parallel)
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: SNGameMode.cpp
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: SNGameMode.gen.cpp
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: RoRC.init.gen.cpp
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: SNPlayer.cpp
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2079: 'ASNGameMode' uses undefined class 'RoRC_API'
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.14.20:131][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2059: syntax error: ':'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(13) : error C2059: syntax error: 'public'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(14) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNGameMode.h(14) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2079: 'ASNGameMode' uses undefined class 'RoRC_API'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2059: syntax error: ':'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : error C2059: syntax error: 'public'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(14) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(14) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(22) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(22) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(27) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(36) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(43) : error C2923: 'TCppClassTypeTraits': 'ASNGameMode' is not a valid template type argument for parameter 'CPPCLASS'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(43) : error C3203: 'TCppClassTypeTraits': unspecialized class template can't be used as a template argument for template parameter 'TTraits', expected a real type
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2923: 'TClassCompiledInDefer': 'ASNGameMode' is not a valid template type argument for parameter 'TClass'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Epic Games\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(303) : note: see declaration of 'TClassCompiledInDefer'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticPackage': identifier not found
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'StaticClassFlags': undeclared identifier
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticClassCastFlags': identifier not found
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C3861: 'StaticConfigName': identifier not found
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2017.08.10-00.14.20:132][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2039: 'Super': is not a member of 'ASNGameMode'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(59) : error C2039: 'WithinClass': is not a member of 'ASNGameMode'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(60) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2365: 'ASNGameMode': redefinition; previous definition was 'data variable'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.h(13) : note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNGameMode.gen.cpp(61) : error C2550: 'ASNGameMode': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: SNPlayer.gen.cpp
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(26) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(26) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2065: 'execMoveForward': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2065: 'execMoveRight': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2065: 'execOnStartJump': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2065: 'execOnStopJump': undeclared identifier
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(141) : error C2923: 'TCppClassTypeTraits': 'ASNPlayer' is not a valid template type argument for parameter 'CPPCLASS'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(141) : error C3203: 'TCppClassTypeTraits': unspecialized class template can't be used as a template argument for template parameter 'TTraits', expected a real type
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2923: 'TClassCompiledInDefer': 'ASNPlayer' is not a valid template type argument for parameter 'TClass'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2017.08.10-00.14.20:133][781]CompilerResultsLog: Error: E:\Epic Games\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(303) : note: see declaration of 'TClassCompiledInDefer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticPackage': identifier not found
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'StaticClassFlags': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticClassCastFlags': identifier not found
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticConfigName': identifier not found
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2039: 'Super': is not a member of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2039: 'WithinClass': is not a member of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2365: 'ASNPlayer': redefinition; previous definition was 'data variable'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2550: 'ASNPlayer': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(8) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(8) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(9) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(9) : error C2365: 'ASNPlayer': redefinition; previous definition was 'data variable'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : error C2065: 'PrimaryActorTick': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : error C2228: left of '.bCanEverTick' must have class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(16) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(16) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(18) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(28) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(28) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(30) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(35) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(35) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(37) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2065: 'MoveForward': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:134][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2065: 'MoveRight': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializerse:\personal\ue\rorc\source\rorc\SNPlayer.h(10): error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2065: 'AddControllerYawInput': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43): note: type is 'unknown-type'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2065: 'AddControllerPitchInput': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(8) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44): error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(8) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(9) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-intE:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44): error C2065: 'OnStartJump': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(9) : error C2365: 'ASNGameMode': redefinition; previous definition was 'data variable'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2227: left of '->BindAction' must point to class/struct/union/generic typee:\personal\ue\rorc\source\rorc\SNGameMode.h(13): note: see declaration of 'ASNGameMode'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializersE:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(10): error C2550: 'ASNGameMode': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13): error C2065: 'DefaultPawnClass': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/unionE:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45): error C2065: 'OnStopJump': undeclared identifier
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.14.20:135][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(50) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(50) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(52) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : error C2227: left of '->GetControlRotation' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C3861: 'GetCharacterMovement': identifier not found
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C2227: left of '->IsMovingOnGround' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C2227: left of '->IsFalling' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(63) : error C3861: 'AddMovementInput': identifier not found
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(68) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(68) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(18) : error C2065: 'DefaultPawnClass': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(70) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : error C2227: left of '->GetControlRotation' must point to class/struct/union/generic type
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : note: type is 'unknown-type'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(25) : error C2825: 'ASNGameMode': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(25) : error C2510: 'ASNGameMode': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(27) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(29) : error C3861: 'StartPlay': identifier not foundE:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(76): error C3861: 'AddMovementInput': identifier not found
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: 
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(81) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(81) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(83) : error C2065: 'bPressedJump': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(85) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(85) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(87) : error C2065: 'bPressedJump': undeclared identifier
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Personal\UE\RoRC\Binaries\Win64\UE4Editor-RoRC-8693.dll
+[2017.08.10-00.14.20:136][781]CompilerResultsLog: Total build time: 37.78 seconds (Local executor: 0.00 seconds)
+[2017.08.10-00.14.20:136][781]LogMainFrame: MainFrame: Module compiling took 38.507 seconds
+[2017.08.10-00.14.20:136][781]Warning: HotReload failed, recompile failed
+[2017.08.10-00.15.35:369][ 67]Running E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC Win64 Development -editorrecompile "E:/Personal/UE/RoRC/RoRC.uproject" -invalidatemakefilesonly
+[2017.08.10-00.15.35:670][ 67]Invalidating makefiles only in this run.
+[2017.08.10-00.15.35:984][ 67]Candidate modules for hot reload:
+[2017.08.10-00.15.35:984][ 67]  RoRC
+[2017.08.10-00.15.35:984][ 67]Launching UnrealBuildTool... [E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC -ModuleWithSuffix RoRC 1624 Win64 Development -editorrecompile -canskiplink "E:/Personal/UE/RoRC/RoRC.uproject" ]
+[2017.08.10-00.16.07:416][ 67]CompilerResultsLog: New page: Compilation - Aug 9, 2017, 4:16:07 PM
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Parsing headers for RoRCEditor
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog:   Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Reflection code generated for RoRCEditor in 10.2094398 seconds
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: SNGameMode.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: SNPlayer.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: MyGameModeBaseTTT.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: MyGameModeBaseTTT.gen.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: RoRC.init.gen.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: SNGameMode.gen.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: SNPlayer.gen.cpp
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(26) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(26) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(28) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(30) : error C2065: 'execMoveForward': undeclared identifier
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(31) : error C2065: 'execMoveRight': undeclared identifier
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:418][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(32) : error C2065: 'execOnStartJump': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(33) : error C2065: 'execOnStopJump': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(117) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(126) : error C3861: 'StaticClass': identifier not found
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(141) : error C2923: 'TCppClassTypeTraits': 'ASNPlayer' is not a valid template type argument for parameter 'CPPCLASS'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(141) : error C3203: 'TCppClassTypeTraits': unspecialized class template can't be used as a template argument for template parameter 'TTraits', expected a real type
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2923: 'TClassCompiledInDefer': 'ASNPlayer' is not a valid template type argument for parameter 'TClass'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2514: 'TClassCompiledInDefer': class has no constructors
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Epic Games\UE_4.17\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(303) : note: see declaration of 'TClassCompiledInDefer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticPackage': identifier not found
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'StaticClassFlags': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticClassCastFlags': identifier not found
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C3861: 'StaticConfigName': identifier not found
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2440: 'type cast': cannot convert from 'void (__cdecl *)(const FObjectInitializer &)' to 'UClass::ClassConstructorType'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2440: 'type cast': cannot convert from 'UObject *(__cdecl *)(FVTableHelper &)' to 'UClass::ClassVTableHelperCtorCallerType'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : note: None of the functions with this name in scope match the target type
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'AddReferencedObjects': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2039: 'Super': is not a member of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(155) : error C2039: 'WithinClass': is not a member of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(156) : error C2065: 'StaticClass': undeclared identifier
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2365: 'ASNPlayer': redefinition; previous definition was 'data variable'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Inc\RoRC\SNPlayer.gen.cpp(157) : error C2550: 'ASNPlayer': constructor initializer lists are only allowed on constructor definitions
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(8) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(8) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:419][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(9) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(9) : error C2365: 'ASNPlayer': redefinition; previous definition was 'data variable'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : note: see declaration of 'ASNPlayer'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : error C2065: 'PrimaryActorTick': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : error C2228: left of '.bCanEverTick' must have class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(11) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(16) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(16) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(18) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(28) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(28) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(30) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(35) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(35) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(37) : error C2653: 'Super': is not a class or namespace name
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(40) : error C2065: 'MoveForward': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(41) : error C2065: 'MoveRight': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(42) : error C2065: 'AddControllerYawInput': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2227: left of '->BindAxis' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(43) : error C2065: 'AddControllerPitchInput': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:420][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(44) : error C2065: 'OnStartJump': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2065: 'InputComponent': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2227: left of '->BindAction' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(45) : error C2065: 'OnStopJump': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(50) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(50) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(52) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : error C2227: left of '->GetControlRotation' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(55) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C3861: 'GetCharacterMovement': identifier not found
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C2227: left of '->IsMovingOnGround' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : error C2227: left of '->IsFalling' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(57) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(63) : error C3861: 'AddMovementInput': identifier not found
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(68) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(68) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(70) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : error C2065: 'Controller': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : error C2227: left of '->GetControlRotation' must point to class/struct/union/generic type
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(73) : note: type is 'unknown-type'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(76) : error C3861: 'AddMovementInput': identifier not found
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(81) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(81) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(83) : error C2065: 'bPressedJump': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(85) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(85) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNPlayer.cpp(87) : error C2065: 'bPressedJump': undeclared identifier
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2079: 'ASNPlayer' uses undefined class 'RoRC_API'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2143: syntax error: missing ';' before ':'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: ':'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(10) : error C2059: syntax error: 'public'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2143: syntax error: missing ';' before '{'
+[2017.08.10-00.16.07:421][ 67]CompilerResultsLog: Error: e:\personal\ue\rorc\source\rorc\SNPlayer.h(11) : error C2447: '{': missing function header (old-style formal list?)
+[2017.08.10-00.16.07:422][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C2825: 'ASNPlayer': must be a class or namespace when followed by '::'
+[2017.08.10-00.16.07:422][ 67]CompilerResultsLog: Error: E:\Personal\UE\RoRC\Source\RoRC\SNGameMode.cpp(13) : error C2510: 'ASNPlayer': left of '::' must be a class/struct/union
+[2017.08.10-00.16.07:422][ 67]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: E:\Personal\UE\RoRC\Binaries\Win64\UE4Editor-RoRC-1624.dll
+[2017.08.10-00.16.07:422][ 67]CompilerResultsLog: Total build time: 31.27 seconds (Local executor: 0.00 seconds)
+[2017.08.10-00.16.07:422][ 67]LogMainFrame: MainFrame: Module compiling took 31.448 seconds
+[2017.08.10-00.16.07:422][ 67]Warning: HotReload failed, recompile failed
+[2017.08.10-00.16.07:427][ 67]Warning: RebindPackages failed because the compiler could not be started.
+[2017.08.10-00.16.21:538][243]Candidate modules for hot reload:
+[2017.08.10-00.16.21:538][243]  RoRC
+[2017.08.10-00.16.21:538][243]Launching UnrealBuildTool... [E:/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe RoRC -ModuleWithSuffix RoRC 1864 Win64 Development -editorrecompile -canskiplink "E:/Personal/UE/RoRC/RoRC.uproject" ]
+[2017.08.10-00.16.21:538][243]Warning: Starting HotReload took  0.0s.
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: New page: Compilation - Aug 9, 2017, 4:17:02 PM
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: Compiling game modules for hot reload
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: Parsing headers for RoRCEditor
+[2017.08.10-00.17.02:864][245]CompilerResultsLog:   Running UnrealHeaderTool "E:\Personal\UE\RoRC\RoRC.uproject" "E:\Personal\UE\RoRC\Intermediate\Build\Win64\RoRCEditor\Development\RoRCEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: Reflection code generated for RoRCEditor in 13.3889694 seconds
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: SNPlayer.cpp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: SNGameMode.gen.cpp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: SNGameMode.cpp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: SNPlayer.gen.cpp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: [5/6] Link UE4Editor-RoRC-1864.dll
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: [6/6] Link UE4Editor-RoRC-1864.lib
+[2017.08.10-00.17.02:864][245]CompilerResultsLog:    Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC-1864.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC-1864.exp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog:    Creating library E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC-1864.suppressed.lib and object E:\Personal\UE\RoRC\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-RoRC-1864.suppressed.exp
+[2017.08.10-00.17.02:864][245]CompilerResultsLog: Total build time: 40.84 seconds (Local executor: 17.53 seconds)
+[2017.08.10-00.17.02:864][245]LogMainFrame: MainFrame: Module compiling took 41.333 seconds
+[2017.08.10-00.17.02:919][245]LogClass: Could not find existing class MyGameModeBaseTTT in package /Script/RoRC for HotReload, assuming new class
+[2017.08.10-00.17.02:920][245]LogClass: Could not find existing class SNGameMode in package /Script/RoRC for HotReload, assuming new class
+[2017.08.10-00.17.02:920][245]LogClass: Could not find existing class SNPlayer in package /Script/RoRC for HotReload, assuming new class
+[2017.08.10-00.17.02:920][245]LogClass: Function MoveForward is new.
+[2017.08.10-00.17.02:920][245]LogClass: Function MoveRight is new.
+[2017.08.10-00.17.02:920][245]LogClass: Function OnStartJump is new.
+[2017.08.10-00.17.02:920][245]LogClass: Function OnStopJump is new.
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:921][245]LoadErrors: Error: /Game/Blueprints/BP_SNPlayer : Can't find file for asset. /Script/GAME1
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:921][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:922][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:922][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:929][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:929][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading ../../../../../Personal/UE/RoRC/Content/Blueprints/BP_SNPlayer.uasset.
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:930][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:931][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:932][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:954][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:954][245]LoadErrors: Failed to load /Script/GAME1.SNPlayer Referenced by BP_SNPlayer
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: Can't find file '/Script/GAME1'
+[2017.08.10-00.17.02:955][245]LoadErrors: Failed to load /Script/GAME1.SNPlayer Referenced by PackageMetaData
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: Can't find file for asset '/Script/GAME1' while loading NULL.
+[2017.08.10-00.17.02:955][245]LogLinker: Warning: CreateExport: Failed to load Parent for BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.02:968][245]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C'
+[2017.08.10-00.17.02:968][245]Error: CDO Constructor (SNGameMode): Failed to find /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+
+[2017.08.10-00.17.02:968][245]LogUObjectBase: Warning: -------------- Default Property warnings and errors:
+[2017.08.10-00.17.02:968][245]LogUObjectBase: Warning: Error: CDO Constructor (SNGameMode): Failed to find /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+
+[2017.08.10-00.17.17:377][245]LogHotReload: Re-instancing SNGameMode after hot-reload.
+[2017.08.10-00.17.17:421][245]LogContentBrowser: Native class hierarchy updated for 'RoRC' in 0.0012 seconds. Added 3 classes and 2 folders.
+[2017.08.10-00.17.17:424][245]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.08.10-00.17.17:437][245]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2391 classes and 506 folders.
+[2017.08.10-00.17.17:437][245]Display: HotReload took 55.9s.
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UserConstructionScript': BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'Arrow': BP_SNPlayer_C /Game/Blueprints/BP_SNPlayer.Default__BP_SNPlayer_C
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CollisionCylinder': BP_SNPlayer_C /Game/Blueprints/BP_SNPlayer.Default__BP_SNPlayer_C
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharMoveComp': BP_SNPlayer_C /Game/Blueprints/BP_SNPlayer.Default__BP_SNPlayer_C
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot_GEN_VARIABLE': BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.17:437][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SimpleConstructionScript_0': BlueprintGeneratedClass /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C
+[2017.08.10-00.17.17:438][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'SCS_Node_0': SimpleConstructionScript /Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C:SimpleConstructionScript_0
+[2017.08.10-00.17.17:438][245]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'CharacterMesh0': BP_SNPlayer_C /Game/Blueprints/BP_SNPlayer.Default__BP_SNPlayer_C
+[2017.08.10-00.17.24:969][918]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 113 classes and 0 folders.
+[2017.08.10-00.17.25:651][918]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.318 s
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: === Handled ensure: ===
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: 
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: Ensure condition failed: BpClass != nullptr [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionFilter.cpp] [Line: 631]
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: Unable to resolve IsEventUnimplementable() - Blueprint (BP_SNPlayer) missing an authoratative class (skel: [NULL], generated: [NULL], parent: [NULL])
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: Stack: 
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9FD35F6
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9D5C2C2
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9D74736
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000D32119BD
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000D32127ED
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-BlueprintGraph.dll!0x00000000D32124C9
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D225E0A5
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D229C851
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D225EA0A
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D246ED77
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D25AF59C
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D25B3B6C
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000D3785D48
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-GraphEditor.dll!0x00000000D36AC4AB
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D245B89A
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D258CECD
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D247DB49
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D245ADEE
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D247E116
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D219D33E
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D21D8FCC
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D21C71A9
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D224A78F
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D2363CCD
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000BF697F6E
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000C76BC5FD
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-AssetTools.dll!0x00000000BF632875
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCB414C8
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCAF3DA7
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCAFB637
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCB4B669
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCAF22F1
+[2017.08.10-00.17.25:651][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCAFA43F
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCAF8148
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCB58150
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-ContentBrowser.dll!0x00000000BCB4B8CA
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000DC115F9E
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000DC0E6D9E
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000DC17F7C4
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000DC169092
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000DC15AC40
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9FAB367
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9F93B41
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9FAD21B
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9F8ECA2
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: USER32.dll!0x0000000076D19BBD
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: USER32.dll!0x0000000076D198C2
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C9FAD926
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4E4BE2
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4F3970
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4F39EA
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor.exe!0x000000003F5002D9
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: UE4Editor.exe!0x000000003F501C47
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: kernel32.dll!0x0000000076E159CD
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: ntdll.dll!0x0000000076F4A561
+[2017.08.10-00.17.25:652][918]LogOutputDevice: Error: 
+[2017.08.10-00.17.25:659][918]LogStats:                SubmitErrorReport -  0.000 s
