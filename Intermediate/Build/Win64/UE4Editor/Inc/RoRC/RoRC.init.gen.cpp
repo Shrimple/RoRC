@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeRoRC_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/RoRC")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x2B7E5D41;
-			Guid.B = 0x79FA040D;
+			Guid.A = 0xBAE8C214;
+			Guid.B = 0xF0360A68;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);

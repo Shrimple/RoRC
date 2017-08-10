@@ -12,7 +12,7 @@ ASNGameMode::ASNGameMode(const FObjectInitializer& ObjectInitializer)
 	//Set Default pawn to SNPlayer Class
 	DefaultPawnClass = ASNPlayer::StaticClass();
 	// set default pawn class to our Blueprinted character
-	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnObject(TEXT("Pawn'/Game/Blueprints/BP_FPSCharacter.BP_FPSCharacter_C'"));
+	static ConstructorHelpers::FClassFinder<APawn> PlayerPawnObject(TEXT("Pawn'/Game/Blueprints/BP_SNPlayer.BP_SNPlayer_C'"));
 	if (PlayerPawnObject.Class != NULL)
 	{
 		DefaultPawnClass = PlayerPawnObject.Class;
